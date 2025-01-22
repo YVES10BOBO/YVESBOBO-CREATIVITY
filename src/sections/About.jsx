@@ -20,13 +20,17 @@ const About = () => {
       <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
-            <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
+            {/* <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" /> */}
+            <img src="assets/YVESBOBO.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">Hi, I’m Adrian Hajdin</p>
+              <p className="grid-headtext">Hi, I’m YVESBOBO</p>
               <p className="grid-subtext">
-                With 12 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
-                and responsive websites.
+               a computer & software engineer with 4 years of experience in software 
+              and hardware testing and development, specializing in frameworks such as React, 
+              TypeScript, Flutter, and Python. Passionate about learning technical tools, including system 
+              control using Arduino IDE programming. I am highly skilled in software design, development, 
+              and integration, committed to delivering quality work, and always seeking new challenges.
               </p>
             </div>
           </div>
@@ -34,7 +38,7 @@ const About = () => {
 
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
-            <img src="assets/grid2.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />
+            <img src="assets/AISYVES.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
               <p className="grid-headtext">Tech Stack</p>
@@ -58,7 +62,7 @@ const About = () => {
                 showGraticules
                 globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
                 bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
-                labelsData={[{ lat: 40, lng: -100, text: 'Kigali, Rwanda', color: 'white', size: 15 }]}
+                labelsData={[{ lat: -1.963042, lng: 30.135014, text: 'Kigali, Rwanda', color: 'white', size: 15,  }]}
               />
             </div>
             <div>
