@@ -1,4 +1,3 @@
-
 import emailjs from '@emailjs/browser';
 import { useRef, useState } from 'react';
 
@@ -21,22 +20,18 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    //   // service_mhuc1wh
-//   // template_l36k9xc  
-//   // v2tHAMMThOMsN7KRq  
-
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID, // Your EmailJS Service ID
+        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID, // Your EmailJS Template ID
         {
           from_name: form.name,
+          from_email: form.email, // Sender's email
           to_name: 'YVESBOBO',
-          from_email: form.email,
-          to_email: 'yvesrutembeza@gmail.com',
+          to_email: 'yvesrutembeza@gmail.com', // Your receiving email
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY // Your EmailJS Public Key
       )
       .then(
         () => {
@@ -54,7 +49,7 @@ const Contact = () => {
               email: '',
               message: '',
             });
-          }, [3000]);
+          }, 3000);
         },
         (error) => {
           setLoading(false);
@@ -65,7 +60,7 @@ const Contact = () => {
             text: "I didn't receive your message 😢",
             type: 'danger',
           });
-        },
+        }
       );
   };
 
@@ -74,7 +69,11 @@ const Contact = () => {
       {alert.show && <Alert {...alert} />}
 
       <div className="relative min-h-screen flex items-center justify-center flex-col">
-        <img src="/assets/terminal.png" alt="terminal-bg" className="absolute inset-0 min-h-screen" />
+        <img
+          src="/assets/terminal.png"
+          alt="terminal-bg"
+          className="absolute inset-0 min-h-screen"
+        />
 
         <div className="contact-container">
           <h3 className="head-text">Let's talk</h3>

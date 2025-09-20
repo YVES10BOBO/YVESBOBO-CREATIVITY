@@ -45,8 +45,9 @@ const About = () => {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                I specialize in a variety of languages, frameworks, and tools that allow me to build robust and scalable
-                applications
+              I specialize in a variety of languages, frameworks, and technologies that allow me to build robust and scalable full-stack web applications.  
+              My expertise extends to IoT development, where I leverage the Arduino IDE to design and implement innovative solutions for hardware and software integration.  
+              This unique combination of skills enables me to create impactful and connected systems for diverse applications.
               </p>
             </div>
           </div>
@@ -70,7 +71,10 @@ const About = () => {
             <div>
               <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
               <p className="grid-subtext">I&apos;m based in Kigali, Rwanda city and open to remote work worldwide.</p>
-              <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+              <a href="https://wa.me/+250787461999?text=Hello%20YVESBOBO,%20I%20would%20like%20to%20contact%20you!" target="_blank">
+               
+              <Button name="Chat with  Me" isBeam containerClass="w-full mt-10"></Button> 
+              </a>
             </div>
           </div>
         </div>
@@ -80,10 +84,13 @@ const About = () => {
             <img src="assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">My Passion for Coding</p>
-              <p className="grid-subtext">
-                I love solving problems and building things through code. Programming isn&apos;t just my
-                profession—it&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills.
+              <p className="grid-headtext pt-16">My Passion for Coding</p>
+              <p className="grid-subtext pt-6">
+              My passion for coding lies in the joy of creating, problem-solving,
+              and constantly learning. Writing code allows me to transform ideas into 
+              functional solutions, whether it&apos;s building innovative applications or 
+              optimizing systems. For me, coding isn&apos;t just a career path—it&apos;s a 
+              way to channel creativity and make a meaningful impact through technology.
               </p>
             </div>
           </div>
@@ -125,3 +132,8 @@ export default About;
 // }
 
 // export default About
+
+
+
+
+

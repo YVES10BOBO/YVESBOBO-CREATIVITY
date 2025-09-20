@@ -7,6 +7,9 @@ import Clients from './sections/Clients.jsx';
 import Experience from './sections/Experience.jsx';
 import Contact from './sections/Contact.jsx';
 import Footer from './sections/Footer.jsx';
+import Education from './sections/Education.jsx';
+
+
 
 
 const App = () => {
@@ -19,6 +22,7 @@ const App = () => {
             {/* <Education/> */}
             <Projects/>
             <Clients/>
+            <Education/>
             <Experience/>
             <Contact/>
             <Footer/>

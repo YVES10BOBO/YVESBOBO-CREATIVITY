@@ -55,6 +55,60 @@ export const clientReviews = [
       'YVES was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
   },
 ];
+// https://yvesbobo-creativity.vercel.app/
+export const educationReviews = [
+  {
+    id: 1,
+    school: 'University of Rwanda',
+    course: 'BACHELOR OF COMPUTER AND SOFTWARE ENGINEERING',
+    img: 'assets/urlogo.png',
+    review: 
+    'Working with Yves was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+  },
+  {
+    id: 2,
+    school: 'CARNEGIE MELLON UNIVERSITY AFRICAN',
+    course: 'Bridge Program -IOT certificate and Artificial intelligence under afritec program',
+    img: 'assets/CMU.png',
+    review:
+      'Yves’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work. ',
+  },
+  {
+    id: 3,
+    school: 'ALX Africa',
+    course: 'AI CARREER ESSENTIALS AND PROFFESSIONAL FOUNDATIONS',
+    img: 'assets/ALX.PNG',
+    review:
+      'I can’t say enough good things about Yves. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+  },
+  {
+    id: 4,
+    school: 'FAB LAB ACADEMY',
+    course: 'IOT CERTIFICATION PROGRAM',
+    img: 'assets/fablab.png',
+    review:
+      'YVES was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+  },
+
+  {
+    id: 1,
+    school: 'stes group ',
+    course: 'IOT training with hardware and software fullstack system development ',
+    img: 'assets/stespic.png',
+    review:
+      'Working with Yves was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+  },
+  {
+    id: 2,
+    school: 'FREECODECAMP',
+    course: 'frontend development with HTML,CSS,JAVASCRIPT & react libraries',
+    img: 'assets/freecodecamp.png',
+    review:
+      'Yves’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+  },
+
+ 
+];
 
 export const myProjects = [
   {
@@ -271,29 +325,35 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
+    name: 'React Native',
+    pos: 'Mobile App Developer',
     duration: '2022 - Present',
-    title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: '/assets/framer.svg',
+    title: "As a React Native developer, I specialize in building high-quality, cross-platform mobile applications that deliver seamless user experiences. I leverage React Native'course flexibility and rich ecosystem to create apps tailored to client and user needs, ensuring efficiency and performance.",
+    icon: '/assets/react.svg',
     animation: 'victory',
   },
   {
     id: 2,
-    name: 'Figma',
+    name: 'NEXTJS FRAMEWORKS',
     pos: 'Web Developer',
     duration: '2020 - 2022',
-    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: '/assets/figma.svg',
+    title: "During my time working with Next.js, I developed dynamic, server-rendered, and highly scalable web applications. I utilized Next.js'course powerful features like server-side rendering (SSR), static site generation (SSG), and API routes to deliver fast, user-focused, and SEO-optimized websites.",
+    icon: '/assets/Nextjslogo.png',
     animation: 'clapping',
   },
   {
     id: 3,
-    name: 'Notion',
+    name: 'HTML, CSS & JS',
     pos: 'Junior Web Developer',
-    duration: '2019 - 2020',
-    title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: '/assets/notion.svg',
+    duration: '2019 - 2021',
+    title: "Starting my journey as a web developer, I honed my skills in HTML, CSS, and JavaScript to craft visually appealing and interactive websites. I focused on creating responsive designs and implementing core web functionalities to ensure a smooth and engaging user experience.",
+    icon: '/assets/htmllogo.png',
     animation: 'salute',
   },
-];
+]; 
+
+
+
+
+
+

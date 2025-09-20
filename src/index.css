@@ -88,8 +88,48 @@ body {
 
     /* clients section */
     .client-container {
-        @apply grid md:grid-cols-2 grid-cols-1 gap-5 mt-12;
+        @apply grid md:grid-cols-2 grid-cols-1 gap-5 mt-2;
     }
+       /* education section */
+
+    /* .education-container{
+         
+    @apply grid md:grid-cols-2 grid-cols-1 gap-5 mt-2  lg:grid-cols-3 ;
+}
+.education-review {
+    @apply  rounded-lg md:p-1 p-5 col-span-1 bg-gray-100  bg-opacity-50 shadow-md overflow-hidden ;
+}
+  
+
+.education-contents {
+    @apply flex lg:flex-row flex-col  justify-between lg:items-center items-start gap-5 mt-7;
+} */
+
+.education-container {
+    @apply grid md:grid-cols-2 lg:grid-cols-3 gap-5 mt-2; /* Ensuring no gap between cards */
+}
+
+.education-review {
+    @apply rounded-lg col-span-1 bg-gray-100 bg-opacity-50 shadow-md overflow-hidden flex flex-col h-full; /* Full height for equal sizing */
+}
+
+.education-contents {
+    @apply flex justify-center items-center h-60; /* Fixing image height */
+}
+
+.education-contents img {
+    @apply w-full h-full object-cover; /* Ensuring full coverage of the card */
+}
+
+.education-review div:last-child {
+    @apply flex flex-col flex-grow p-4 bg-gray-900 text-white; /* Making content fill remaining space */
+}
+
+.education-review p:last-child {
+    @apply text-gray-800 font-light bg-yellow-400 p-2 rounded-md mt-auto; /* Ensuring review text takes remaining space */
+}
+
+
 
     .client-review {
         @apply rounded-lg md:p-10 p-5 col-span-1 bg-black-300 bg-opacity-50;
