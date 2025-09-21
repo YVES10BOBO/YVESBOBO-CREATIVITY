@@ -96,7 +96,7 @@ body {
          
     @apply grid md:grid-cols-2 grid-cols-1 gap-5 mt-2  lg:grid-cols-3 ;
 }
-.education-review {
+.-review {
     @apply  rounded-lg md:p-1 p-5 col-span-1 bg-gray-100  bg-opacity-50 shadow-md overflow-hidden ;
 }
   
@@ -126,7 +126,7 @@ body {
 }
 
 .education-review p:last-child {
-    @apply text-gray-800 font-light bg-yellow-400 p-2 rounded-md mt-auto; /* Ensuring review text takes remaining space */
+    @apply text-gray-800 font-light bg-gray-200 p-2 rounded-md mt-auto transition duration-300 hover:bg-gray-500 hover:shadow; /* Ensuring review text takes remaining space */
 }
 
 
