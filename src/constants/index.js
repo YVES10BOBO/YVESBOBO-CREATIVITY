@@ -60,55 +60,53 @@ export const educationReviews = [
   {
     id: 1,
     school: 'University of Rwanda',
-    course: 'BACHELOR OF COMPUTER AND SOFTWARE ENGINEERING',
+    course: 'Bachelor of Computer and Software Engineering',
     img: 'assets/urlogo.png',
-    review: 
-    'Working with Yves was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+    review:
+      'At the University of Rwanda, I built a strong foundation in computer science, software engineering, and problem-solving. My studies focused on programming, system design, algorithms, and embedded systems, which prepared me to develop innovative and scalable technology solutions.',
   },
   {
     id: 2,
-    school: 'CARNEGIE MELLON UNIVERSITY AFRICAN',
-    course: 'Bridge Program -IOT certificate and Artificial intelligence under afritec program',
+    school: 'Carnegie Mellon University Africa',
+    course: 'Bridge Program - IoT Certificate and Artificial Intelligence under AfriTec Program',
     img: 'assets/CMU.png',
     review:
-      'Yves’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work. ',
+      'Through the CMU Africa AfriTec Bridge Program, I gained specialized training in Internet of Things (IoT) and Artificial Intelligence. This program enhanced my ability to design smart systems, apply AI models, and integrate IoT solutions for real-world challenges in Africa.',
   },
   {
     id: 3,
     school: 'ALX Africa',
-    course: 'AI CARREER ESSENTIALS AND PROFFESSIONAL FOUNDATIONS',
+    course: 'AI Career Essentials and Professional Foundations',
     img: 'assets/ALX.PNG',
     review:
-      'I can’t say enough good things about Yves. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+      'At ALX Africa, I completed intensive training focused on artificial intelligence fundamentals, career development, and professional foundations. I strengthened my skills in AI applications, communication, teamwork, and leadership—key tools for success in the tech industry.',
   },
   {
     id: 4,
-    school: 'FAB LAB ACADEMY',
-    course: 'IOT CERTIFICATION PROGRAM',
+    school: 'Fab Lab Academy',
+    course: 'IoT Certification Program',
     img: 'assets/fablab.png',
     review:
-      'YVES was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+      'The Fab Lab IoT Certification Program equipped me with hands-on experience in hardware design, embedded systems, cloud integration, and IoT data analytics. I also explored machine learning and computer vision applications for connected devices.',
   },
-
   {
-    id: 1,
-    school: 'stes group ',
-    course: 'IOT training with hardware and software fullstack system development ',
+    id: 5,
+    school: 'STES Group',
+    course: 'IoT Training with Hardware and Software Fullstack System Development',
     img: 'assets/stespic.png',
     review:
-      'Working with Yves was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+      'During my training with STES Group, I worked on IoT projects that combined hardware and software development. This included building fullstack systems, sensor integration, and data management, enhancing my expertise in end-to-end IoT solutions.',
   },
   {
-    id: 2,
-    school: 'FREECODECAMP',
-    course: 'frontend development with HTML,CSS,JAVASCRIPT & react libraries',
+    id: 6,
+    school: 'FreeCodeCamp',
+    course: 'Frontend Development with HTML, CSS, JavaScript & React Libraries',
     img: 'assets/freecodecamp.png',
     review:
-      'Yves’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+      'On FreeCodeCamp, I strengthened my web development skills by mastering frontend technologies such as HTML, CSS, JavaScript, and React. I built interactive projects, improved responsive design techniques, and gained experience working with modern JavaScript frameworks.',
   },
-
- 
 ];
+
 
 // export const myProjects = [
 //   {

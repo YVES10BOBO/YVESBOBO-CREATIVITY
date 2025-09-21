@@ -126,7 +126,7 @@ body {
 }
 
 .education-review p:last-child {
-    @apply text-gray-800 font-light bg-gray-200 p-2 rounded-md mt-auto transition duration-300 hover:bg-gray-500 hover:shadow; /* Ensuring review text takes remaining space */
+    @apply text-gray-800 font-light bg-gray-500 p-2 rounded-md mt-auto transition duration-300 hover:bg-gray-400 hover:shadow; /* Ensuring review text takes remaining space */
 }
 
 
