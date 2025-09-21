@@ -320,7 +320,7 @@ export const myProjects = [
     href: 'https://fusionfx.rw/',
 
     texture: '/textures/project/project1.mp4',
-    logo: '/assets/project-logo1.png',
+    logo: '/assets/FUSION_FX_STUDIO.png',
     logoStyle: {
       backgroundColor: '#2A1816',
       border: '0.2px solid #36201D',
@@ -346,7 +346,7 @@ export const myProjects = [
       {
         id: 4,
         name: 'Framer Motion',
-        path: '/assets/framer.png',
+        path: '/assets/Nextjslogo.png',
       },
     ],
   },
@@ -359,7 +359,7 @@ export const myProjects = [
 
 
     texture: '/textures/project/project2.mp4',
-    logo: '/assets/project-logo2.png',
+    logo: '/assets/NodeJS-MongoDB.png',
     logoStyle: {
       backgroundColor: '#13202F',
       border: '0.2px solid #17293E',
@@ -385,7 +385,7 @@ export const myProjects = [
       {
         id: 4,
         name: 'Framer Motion',
-        path: '/assets/framer.png',
+        path: '/assets/Nextjslogo.png',
       },
     ],
   },
@@ -397,7 +397,7 @@ export const myProjects = [
   href: 'https://youtu.be/M-QxEGJ8m2s',
 
     texture: '/textures/project/project3.mp4',
-    logo: '/assets/project-logo3.png',
+    logo: '/assets/flet-logo.png',
     logoStyle: {
       backgroundColor: '#60f5a1',
       background:
@@ -425,7 +425,7 @@ export const myProjects = [
       {
         id: 4,
         name: 'Framer Motion',
-        path: '/assets/framer.png',
+        path: '/assets/Nextjslogo.png',
       },
     ],
   },
@@ -439,8 +439,8 @@ export const myProjects = [
 
 
     texture: '/textures/project/project4.mp4',
-    logo: '/assets/project-logo4.png',
-    logoStyle: {
+    logo: '/assets/knowledge-logo12.png',
+    logoStyle: {  
       backgroundColor: '#0E1F38',
       border: '0.2px solid #0E2D58',
       boxShadow: '0px 0px 60px 0px #2F67B64D',
@@ -465,7 +465,7 @@ export const myProjects = [
       {
         id: 4,
         name: 'Framer Motion',
-        path: '/assets/framer.png',
+        path: '/assets/Nextjslogo.png',
       },
     ],
   },
@@ -515,7 +515,7 @@ export const workExperiences = [
     pos: 'Junior Web Developer',
     duration: '2019 - 2021',
     title: "Starting my journey as a web developer, I honed my skills in HTML, CSS, and JavaScript to craft visually appealing and interactive websites. I focused on creating responsive designs and implementing core web functionalities to ensure a smooth and engaging user experience.",
-    icon: '/assets/htmllogo.png',
+    icon: '/assets/HTML-CSS-JS-Logo.png',
     animation: 'salute',
   },
 ]; 
