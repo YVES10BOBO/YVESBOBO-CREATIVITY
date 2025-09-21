@@ -55,11 +55,17 @@ const Hero = () => {
         </Canvas>
       </div>
 
-      <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space">
-        <a href="#about" className="w-fit">
-          <Button name="Let's work together" isBeam containerClass="sm:w-fit w-full sm:min-w-96" />
-        </a>
-      </div>
+
+<div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space flex flex-col sm:flex-row gap-4 justify-center">
+  <a href="#about" className="w-fit">
+    <Button name="Let's work together" isBeam containerClass="sm:w-fit w-full sm:min-w-96" />
+  </a>
+  {/* <a href="/YvesRutembeza_CV.pdf" target="_blank" rel="noopener noreferrer" className="w-fit">
+    <Button name="View Resume" isBeam containerClass="sm:w-fit w-full sm:min-w-96" />
+  </a> */}
+</div>
+
+
     </section>
   );
 };

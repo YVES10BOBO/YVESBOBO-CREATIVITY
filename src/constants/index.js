@@ -19,7 +19,14 @@ export const navLinks = [
     name: 'Contact',
     href: '#contact',
   },
+  {
+    id: 5,
+    name: 'My Resume',
+    href: '/pdfPreview/RUTEMBEZA YVES CV.pdf', // put your PDF file inside "public/" folder
+    external: true, // add a flag so we know it's an external file
+  },
 ];
+
 
 export const clientReviews = [
  {
@@ -59,7 +66,7 @@ export const clientReviews = [
 export const educationReviews = [
   {
     id: 1,
-    school: 'University of Rwanda',
+    school: 'Universsddjdnsity of Rwanda',
     course: 'Bachelor of Computer and Software Engineering',
     img: 'assets/urlogo.png',
     review:
